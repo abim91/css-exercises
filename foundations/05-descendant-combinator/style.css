@@ -1,0 +1,8 @@
+/*this is example of descendant-combinator, only selects
+p element that is a child of div element */
+div p{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
