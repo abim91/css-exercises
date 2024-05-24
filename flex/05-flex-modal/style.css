@@ -20,9 +20,25 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
+  display: flex;
+  
+  /*gap: 20px; this still fills the same space, creating the squish effect*/ 
+}
+.sect2{
+  
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header{
+  font-weight: bold;
 }
 
 .icon {
+  flex-shrink: 0;/*keep ths icon from being smashed by other items, even changing the size*/
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -33,9 +49,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+ 
 }
 
 .close-button {
+  flex-shrink: 0;
   background: #eee;
   border-radius: 50%;
   color: #888;

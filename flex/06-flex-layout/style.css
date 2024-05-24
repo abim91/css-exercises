@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  min-height: 100vh;
+
 }
 
 img {
@@ -24,4 +26,121 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/*my code
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  padding-right: 25px;
+}
+
+.left-links{
+  display: flex;
+  gap: 10px;
+  
+}
+.right-links{
+  display: flex;
+  gap: 10px;
+  
+}
+
+a, li{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 130px;
+  /*padding-top: 6%;
+  padding-bottom: 13%;
+  
+}
+.footer{
+  
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding-right:25px;
+}
+
+button{
+  padding: 8px
+}*/
+
+/*following the suggested
+body{
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee;
+}
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}*/
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  flex: 1;
+  display: flex;
+  
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.header,.footer{
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  padding: 16px;
+}
+a, ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+ul{
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+
+.footer{
+  background-color: #eee;
 }
